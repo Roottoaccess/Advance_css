@@ -44,4 +44,8 @@ transform: rotate(50deg);
     /* transform: skew(20deg,20deg); */
     transition: 1s;
     transform: matrix(2,-0.3,0,1,0,0);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ccd09451f06ebbee9ac1448b0e69589fb5063c0a
