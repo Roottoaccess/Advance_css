@@ -22,11 +22,14 @@
     /* animation: noticeAnimation 20s 2s infinite */
 }
 
-@keyframes noticeAnimation{
-    from{
+@keyframes noticeAnimation
+{
+    from
+    {
         top: 0px;
     }
-    to{
+    to
+    {
         top: -1000px;
     }
 }
