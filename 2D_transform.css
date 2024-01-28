@@ -1,0 +1,47 @@
+/* 
+property - transform
+value:- 
+translate()
+rotate()
+scale()
+scaleX()
+scaleY()
+skew()
+skewX()
+skewY()
+matrix()
+
+transform:matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY());
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    margin-top: 200px;
+    /* transform: translate(20px,100px); */
+    /* transform: rotate(-50deg); */
+    margin-left: 200px;
+}
+p{
+    line-height: 200px;
+}
+.box:hover{
+/* 
+transform: translate(20px,100px); 
+transform: rotate(50deg);
+*/
+/* transform: scale(0.5,2); */
+    /* background-color: aqua;
+    color: gray; */
+    /* transition: 0.5s; */
+    /* transform: scaleY(0.5); */
+    /* transform: skew(20deg,20deg); */
+    transition: 1s;
+    transform: matrix(2,-0.3,0,1,0,0);
+}
