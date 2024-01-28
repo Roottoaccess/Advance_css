@@ -1,5 +1,6 @@
 .noticeBoard{
-    background-color: #eee;
+    background-color: #333;
+    color: aliceblue;
     height: 500px;
     width: 450px;
     overflow: hidden;
