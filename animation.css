@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: demoAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes demoAnimation {
+    /* from{
+        background-color: red;
+    } to {
+        background-color: blue;
+    } */
+    0%{
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+    25%
+    {
+        background-color: yellow;
+        top: 0px;
+        left: 300px;
+    }
+    50%
+    {
+        background-color: green;
+        top: 300px;
+        left: 300px;
+    }
+    75%{
+        background-color: pink;
+        left: 0px;
+        top: 300px;
+    } 100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
