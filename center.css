@@ -1,0 +1,12 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: royalblue;
+}
+
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
