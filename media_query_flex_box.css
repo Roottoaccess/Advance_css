@@ -1,0 +1,50 @@
+/* body{
+    background-color: royalblue;
+}
+ min-width (kaam se kaam) , max-width (zyada se zyada)
+@media screen and (min-width:750px) and (max-width:1000px) 
+{  
+    body{
+        background-color: green;
+    }
+    h1
+    {
+        color: white;
+        background-color: royalblue;
+    }
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: royalblue;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: hotpink;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 600px) 
+{
+    .navbar a
+    {
+        float: none;
+        width: 100%;
+    }    
+}
