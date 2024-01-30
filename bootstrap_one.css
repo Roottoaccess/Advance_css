@@ -1,0 +1,11 @@
+.alert-primary{
+    font-size: 25px;
+    color: white !important;
+}
+
+.demo{
+    color: whitesmoke;
+}
+.card{
+    box-shadow: 5px 5px 10px royalblue;
+}
